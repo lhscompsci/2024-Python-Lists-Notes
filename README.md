@@ -12,9 +12,9 @@ myList = [0,0,0,0,0,0,0,0,0,0]
 price = [32.23, 12.25, 56.38, 77.55, 39.0]
 ```
 
-Lists are an example of data abstraction.  The use of 5 different storage locations to store all of the values is hidden away from the user.
+Lists are an example of data abstraction.  The use of 5 different storage locations to store all the values is hidden away from the user.
 
-One name or identifier is used to manage multiple variables or containers for values makes the program nuch easier to manage.
+One name or identifier is used to manage multiple variables or containers for values makes the program much easier to manage.
 
 Lists allow you to use one identifier to group items together
 
@@ -39,14 +39,13 @@ coworkers[1]="Tim"
 ```
 ### Python List Functions
 
- Name                   | Use                                                                    
-------------------------|------------------------------------------------------------------------
- ```list.append(x)```   | sticks ```x``` to the end of ```list```                                
- ```list.insert(i,x)``` | inserts ```x``` at spot ```i``` in ```list```                          
- ```list.remove(x)```   | removes the first occurance of ```x``` in ```list```                   
- ```list.pop(i)```      | removes the item at position ```i``` from the ```list``` and return it 
- ```len(list)```        | returns the length of ```list```                                       
-
+| Name                   | Use                                                                    |
+|------------------------|------------------------------------------------------------------------|
+| ```list.append(x)```   | sticks ```x``` to the end of ```list```                                |
+| ```list.insert(i,x)``` | inserts ```x``` at spot ```i``` in ```list```                          |
+| ```list.remove(x)```   | removes the first occurrence of ```x``` in ```list```                  |
+| ```list.pop(i)```      | removes the item at position ```i``` from the ```list``` and return it |
+| ```len(list)```        | returns the length of ```list```                                       |
 
 ## Processing Lists with Loops
 
