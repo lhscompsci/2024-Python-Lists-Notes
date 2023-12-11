@@ -37,4 +37,24 @@ The index allows you to get or change data in a list:
 ```python
 coworkers[1]="Tim"
 ```
+### Python List Functions
+
+ Name                   | Use                                                                    
+------------------------|------------------------------------------------------------------------
+ ```list.append(x)```   | sticks ```x``` to the end of ```list```                                
+ ```list.insert(i,x)``` | inserts ```x``` at spot ```i``` in ```list```                          
+ ```list.remove(x)```   | removes the first occurance of ```x``` in ```list```                   
+ ```list.pop(i)```      | removes the item at position ```i``` from the ```list``` and return it 
+ ```len(list)```        | returns the length of ```list```                                       
+
+
+## Processing Lists with Loops
+
+See the examples in SampleCode.py
+
+## Tuples
+
+Tuples are lists that cannot be changed or edited.
+
+Individual pieces are still accessed via their index.
 

@@ -77,4 +77,4 @@ print(go(list))
 myTuple = (255,0,89)
 print(myTuple)
 print(myTuple[2])
-myTuple.append(33)
+# myTuple.append(33)  CANNOT do this -- tuples can't be changed in any way, shape, or form
